@@ -44,7 +44,7 @@ Public Class ExcelReport
         ws.Name = "VB Test"
 
         ' I changed the ouputorder in comparison with the C# test,
-        ' so that it can be seen that option 1 is working.
+        ' so that it can be seen that option 2 is working.
 
         ' Output Option 2 -> working
         ws.Range(ws.Cells(1, 2), ws.Cells(1, 2)).Value = "Cell R1C2"
